@@ -1,1 +1,1 @@
-console.log("sandwitch maker preject begins !!")
+console.log("sandwich maker preject begins !!")

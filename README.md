@@ -1,0 +1,1 @@
+This is a project where I practiced fundamentals of HTML, CSS, and JS . It's a static webpage where you can make a sandwich by dragging and dropping ingredients from the inventory ; you can see your sandwich being updated in real time with its price.
