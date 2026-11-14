@@ -1,0 +1,31 @@
+header{
+  justify-content: space-between;
+
+  background-color: white;
+  box-shadow: 0 0 1.5em 0 var(--shadow-color);
+
+  padding: .8em 2em;
+  .left-section{
+    font-size: 1.2em;
+    font-weight: 800;
+    .first-letter{
+      font-size: 1.5em;
+      color: var(--secondary-color);
+    }
+  }
+  .right-section{
+    .first-name{
+      text-transform: capitalize;
+    }
+    .last-name{
+      text-transform: uppercase;
+    }
+    .filiere{
+      margin-left: .5em;
+
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.2em;
+    }
+  }
+}

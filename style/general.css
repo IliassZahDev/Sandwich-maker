@@ -1,15 +1,25 @@
 /* generale styling */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 :root{
   --primary-color: #00105B;
   --secondary-color: #6061B6;
   --border-color: #C9B5E0;
   --light-color: #FCF9EC;
+
+  --shadow-color: #00000011;
 }
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  font-family: 'Lato';
 }
 
 /* Reusable clesses */
