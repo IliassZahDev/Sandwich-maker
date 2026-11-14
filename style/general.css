@@ -1,0 +1,19 @@
+/* generale styling */
+:root{
+  --primary-color: #00105B;
+  --secondary-color: #6061B6;
+  --border-color: #C9B5E0;
+  --light-color: #FCF9EC;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Reusable clesses */
+.flex-item {
+  display: flex;
+  align-items: center;
+}
