@@ -1,18 +1,16 @@
 main{
   padding: 1em;
-}
-nav{
-  background-color: white;
-  border: 1px solid var(--border-color);
-  border-radius: .5em;
+  gap: 1em;
 
-  padding: .5em;
-  .nav-head{
+  align-items: start !important;
+}
+.ingrediants-section{
+  .sidebar-head{
     text-transform: capitalize;
     color: var(--secondary-color);
 
     font-size: .9em;
-    margin-bottom: 1.5em;
+    margin-bottom: .5em;
   }
   .ingredients-list{
     padding: .8em;
