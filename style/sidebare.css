@@ -2,7 +2,7 @@ main{
   padding: 1em;
   gap: 1em;
 
-  align-items: start !important;
+  align-items: stretch !important;
 }
 .ingrediants-section{
   .sidebar-head{
@@ -28,19 +28,12 @@ main{
         margin-left: .3em;
       }
     }
-    /* TODO: Commun style for all ingredients */
     .ingr-container{
       display: flex;
       justify-content: end;
-        .ingr-article{
-          display: inline;
-          border: 1px solid var(--border-color);
-          border-radius: .5em;
-
-          padding: .3em .6em;
-
-          cursor: move;
-        }
+      .ingr-article{
+        width: auto;
+      }
     }
   }
 }

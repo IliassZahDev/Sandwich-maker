@@ -1,0 +1,15 @@
+.table {
+  flex-direction: column;
+  .burger-container{
+    flex: 1;
+
+    margin: 40px 0;
+    .ingrediants-container{
+      padding: 5px 0;
+    }
+  }
+  .description{
+    padding: 0 5px 5px 5px;
+    font-weight: bold;
+  }
+}
