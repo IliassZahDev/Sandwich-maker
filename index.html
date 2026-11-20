@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style/header.css">
   <link rel="stylesheet" href="style/sidebare.css">
   <link rel="stylesheet" href="style/table.css">
+  <link rel="stylesheet" href="style/result.css">
   <script src="app.js" defer></script>
   <title>Sandwich Maker</title>
 </head>
@@ -25,28 +26,30 @@
   </header>
 
   <main class="flex-item">
+
     <aside class="box ingrediants-section">
       <div class="sidebar-head">inventaire</div>
       <div class="ingredients-list">
 
         <p class="ingr-name">tomate</p>
-        <div class="ingr-price">0.9<span class="unit">dh</span></div>
+        <div class="price">0.9<span class="unit">dh</span></div>
         <div class="ingr-container">
           <div class="ingr-article tomate" draggable="true">tomate</div>
         </div>
         
         <p class="ingr-name">oignon rouge</p>
-        <div class="ingr-price">1.95<span class="unit">dh</span></div>
+        <div class="price">1.95<span class="unit">dh</span></div>
         <div class="ingr-container">
           <div class="ingr-article oignon-rouge" draggable="true">oignon rouge</div>
         </div>
         <p class="ingr-name">cheddar</p>
-        <div class="ingr-price">0.75<span class="unit">dh</span></div>
+        <div class="price">0.75<span class="unit">dh</span></div>
         <div class="ingr-container">
           <div class="ingr-article cheddar" draggable="true">cheddar</div>
         </div>
       </div>
     </aside>
+
     <section class="table box flex-item">
       <div class="burger-container">
         <div class="top-bread ingr-article">Top bread</div>
@@ -55,6 +58,22 @@
       </div>
       <div class="description">Construit ton sandwich à partir des ingrédients de l'inventaire</div>
     </section>
+
+    <section class="result box flex-item">
+      <div class="burger-container">
+        <div class="top-bread ingr-article">Top bread</div>
+        <div class="ingrediants-container"></div>
+        <div class="bottom-bread ingr-article">bottom bread</div>
+      </div>
+
+      <div class="total-price flex-item">
+        <span>total price:</span>
+        <div class="price">
+          50<span class="unit">dh</span>
+        </div>
+      </div>
+    </section>
+
   </main>
   
 </body>

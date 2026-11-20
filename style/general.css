@@ -36,6 +36,14 @@ body{
   padding: .5em;
 }
 
+.price{
+  font-weight: 600;
+  .unit{
+    text-transform: uppercase;
+    margin-left: .3em;
+  }
+}
+
 /* Ingredients */
 .ingr-article{
   border: 1px solid var(--border-color);
@@ -45,5 +53,5 @@ body{
 
   cursor: move;
 
-  width: 200px;
+  width: 300px;
 }

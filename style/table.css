@@ -1,5 +1,6 @@
 .table {
   flex-direction: column;
+  flex: 1;
   .burger-container{
     flex: 1;
 

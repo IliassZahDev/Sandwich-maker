@@ -21,13 +21,6 @@ main{
       text-transform: capitalize;
       font-size: 1.1em;
     }
-    .ingr-price{
-      font-weight: 600;
-      .unit{
-        text-transform: uppercase;
-        margin-left: .3em;
-      }
-    }
     .ingr-container{
       display: flex;
       justify-content: end;
