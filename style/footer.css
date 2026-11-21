@@ -1,0 +1,29 @@
+footer{
+  flex-direction: column;
+  padding: 0 15px 15px 15px;
+  .description{
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-bottom: 20px;
+  }
+  .foot{
+    .copyright{
+      .author{
+        font-weight: bold;
+      }
+    }
+    li{
+      color: var(--secondary-color);
+      a{
+        text-transform: capitalize;
+        &:hover{
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+  .flex-item{
+    gap: 10px;
+  }
+}

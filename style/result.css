@@ -9,6 +9,8 @@
   .total-price{
     margin: 10px;
     margin-top: 20px;
+
+    text-transform: capitalize;
     & > span {
       margin-right: 10px;
     }
