@@ -1,7 +1,9 @@
 .table {
   flex-direction: column;
+  align-items: start !important;
   flex: 1;
   .burger-container{
+    align-self: center;
     flex: 1;
 
     margin: 40px 0;

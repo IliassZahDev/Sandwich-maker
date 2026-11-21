@@ -1,11 +1,4 @@
 .ingrediants-section{
-  .sidebar-head{
-    text-transform: capitalize;
-    color: var(--secondary-color);
-
-    font-size: .9em;
-    margin-bottom: .5em;
-  }
   .ingredients-list{
     padding: .8em;
     display: grid;
