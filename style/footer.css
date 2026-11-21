@@ -1,12 +1,6 @@
 footer{
   flex-direction: column;
   padding: 0 15px 20px 15px;
-  .description{
-    font-size: 20px;
-    font-weight: bold;
-    
-    margin-bottom: 20px;
-  }
   .foot{
     .copyright{
       .author{
@@ -25,5 +19,30 @@ footer{
   }
   .flex-item{
     gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .foot{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .foot{
+    flex-direction: column;
+    .copyright{
+      margin: 20px 0;
+    }
+    .media{
+      gap: 10px;
+      flex-direction: column;
+      span{
+        text-transform: uppercase;
+      }
+      ul{
+        flex-direction: column;
+      }
+    }
   }
 }

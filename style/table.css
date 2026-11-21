@@ -5,10 +5,20 @@
   .burger-container{
     align-self: center;
     flex: 1;
+    width: 100%;
 
     margin: 40px 0;
     .ingrediants-container{
       padding: 5px 0;
     }
+    .ingr-article{
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .burger-container{
+    font-size: .8em;
   }
 }

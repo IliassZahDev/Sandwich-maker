@@ -5,6 +5,8 @@ header{
   box-shadow: 0 0 1.5em 0 var(--shadow-color);
 
   padding: .8em 2em;
+
+  width: 100%;
   .left-section{
     font-size: 1.2em;
     font-weight: 800;
@@ -27,5 +29,11 @@ header{
       font-weight: 600;
       font-size: 1.2em;
     }
+  }
+}
+
+@media (max-width: 400px) {
+  header{
+    font-size: 14px;
   }
 }

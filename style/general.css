@@ -22,9 +22,12 @@ body{
   font-family: 'Lato';
 
   min-height: 100vh;
+  width: 100vw;
 
   display: flex;
   flex-direction: column;
+
+  overflow-x: hidden;
 }
 
 main{
@@ -33,6 +36,12 @@ main{
 
   align-items: stretch !important;
   flex: 1;
+}
+
+@media (max-width: 570px) {
+  main{
+    flex-direction: column;
+  }
 }
 
 a, a:active{
@@ -54,6 +63,7 @@ ul{
   background-color: white;
   border: 1px solid var(--border-color);
   border-radius: .5em;
+  box-shadow: 0 5px 10px 0 var(--shadow-color);
 
   padding: .5em;
 }
@@ -74,6 +84,38 @@ ul{
   margin-bottom: .5em;
 }
 
+.description{
+  font-size: 20px;
+  font-weight: bold;
+  
+  margin-bottom: 20px;  
+
+  text-align: center;
+  &.phone-only{
+    padding: 25px 15px 0 15px;
+  }
+}
+
+.phone-only{
+  display: none;
+}
+
+.phone-hidden{
+  display: block;
+}
+
+@media (max-width: 570px) {
+  .phone-only{
+    display: block;
+  }
+  .phone-hidden{
+    display: none;
+  }
+  .description{
+    font-size: 15px;
+  }
+}
+
 /* Ingredients */
 .ingr-article{
   border: 1px solid var(--border-color);
@@ -83,5 +125,5 @@ ul{
 
   cursor: move;
 
-  width: 300px;
+  width: min(100%, 300px);
 }

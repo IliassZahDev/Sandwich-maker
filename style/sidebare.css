@@ -17,3 +17,17 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .ingrediants-section{
+    .ingredients-list{
+      font-size: .8em;
+    }
+  }
+}
+@media (max-width: 570px) {
+  .ingrediants-section{
+    position: sticky;
+    top: 10px;
+  }
+}
